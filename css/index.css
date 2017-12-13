@@ -1,4 +1,4 @@
-td {
-  border: solid 1px
-  
+table {
+  border: solid 1px;
+  background-color: blue;
 }
