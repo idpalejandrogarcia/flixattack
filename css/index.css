@@ -1,4 +1,54 @@
-table {
-  border: solid 1px;
-  background-color: blue;
+.cuerpo{
+  width: 750px;
+  height: 1000px;
+  background-color: black;
+  text-align: center;
+}
+.logotipo {
+  width: 700px;
+  height: 200px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.fav {
+  border: 1px solid;
+  width: 230px;
+  height: 50px;
+  background-color: grey;
+  top: 30px;
+  left: -4px;
+  position: relative;
+  display: inline-block;
+}
+.mitad{
+  width: 702px;
+  height: 550px;
+  background-color: black;
+  top: 40px;
+  left: 20px;
+  position: relative;
+}
+.publicidad {
+  border: 1px solid;
+  width: 230px;
+  height: 549px;
+  background-color: grey;
+  display: inline-block;
+}
+.serie {
+  border: 1px solid;
+  width: 464px;
+  height: 549px;
+  background-color: grey;
+  display: inline-block;
+}
+.footer{
+  border: 1px solid;
+  width: 699px;
+  height: 119px;
+  background-color: grey;
+  top: 50px;
+  left: 20px;
+  position: relative;
 }
