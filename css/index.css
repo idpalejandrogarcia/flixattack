@@ -1,50 +1,92 @@
+/* Estructura de la pagina */
 body {
   background-color: black;
   text-align: center;
+  margin: 0;
 }
-.logotipo {
-  position: relative;
-  top: 10px;
-  left: 10px;
+
+/*cabecera*/
+
+header{
+background-color: white;
 }
+
+header .logotipo {
+}
+
+.fav {
+    background-color: #3e3e3e;
+}
+
 .fav div {
   border: 1px solid;
   width: 230px;
-  height: 50px;
+  height: 32px;
   background-color: grey;
-  top: 30px;
-  left: -4px;
-  position: relative;
   display: inline-block;
 }
+
+/* Parte central de la pagina*/
+
 .mitad{
   width: 702px;
+  margin:auto;
   height: 550px;
   background-color: black;
-  top: 40px;
-  left: 20px;
-  position: relative;
 }
 .publicidad {
-  border: 1px solid;
   width: 230px;
-  height: 549px;
-  background-color: grey;
+  background-color: #292929;
+  color:#7B7B7B;
   display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  left: 0;
+  padding: 10px;
 }
 .series {
   border: 1px solid;
-  width: 464px;
+  width: 702px;
   height: 549px;
   background-color: grey;
   display: inline-block;
 }
+
+.series .grid {
+}
+
+.series .item {
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	margin: 5px;
+	/* display: inline-block; */
+	display: inline-flex;
+	border:2px solid black;
+}
+
+.series .item:hover {
+	/*transform:scale(1.2);*/
+	transform:translateY(-3px);
+	border-color:red;
+	transition:all 0.8s;
+}
+
+.series h3 {
+color: white;
+
+}
+
+.series .episodio {
+	color: white;
+	background-color: orange;
+	padding: 2px;
+}
+
+/*pie de pagina*/
+
 .footer{
   border: 1px solid;
-  width: 699px;
   height: 119px;
   background-color: grey;
-  top: 50px;
-  left: 20px;
-  position: relative;
 }
