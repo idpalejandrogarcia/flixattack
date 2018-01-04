@@ -1,17 +1,13 @@
-.cuerpo{
-  width: 750px;
-  height: 1000px;
+body {
   background-color: black;
   text-align: center;
 }
 .logotipo {
-  width: 700px;
-  height: 200px;
   position: relative;
   top: 10px;
   left: 10px;
 }
-.fav {
+.fav div {
   border: 1px solid;
   width: 230px;
   height: 50px;
@@ -36,7 +32,7 @@
   background-color: grey;
   display: inline-block;
 }
-.serie {
+.series {
   border: 1px solid;
   width: 464px;
   height: 549px;
