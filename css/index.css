@@ -30,6 +30,11 @@ header .logotipo {
 
 /* Parte central de la pagina*/
 
+.expli{
+  width: 100vw;
+  color:white;
+}
+
 .mitad{
   width: 702px;
   margin:auto;
@@ -53,6 +58,10 @@ header .logotipo {
   height: 549px;
   background-color: grey;
   display: inline-block;
+}
+
+.slider-for{
+  min-height: 40px;
 }
 
 .series .grid {
@@ -93,10 +102,17 @@ text-shadow: 2px 2px #ff0000;
 .footer{
   border: 1px solid;
   height: 119px;
+  width: 100vw;
   background-color: #232323;
+  display: inline-flex;
+  justify-content:center;
+  align-items: center;
 }
 .footer strong {
 color: white;
 text-shadow: 2px 2px #ff0000;
-
+}
+.contacto p {
+  display: inline-flex;
+  justify-content:space-around;
 }
