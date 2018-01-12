@@ -7,6 +7,9 @@
     <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="lib/buttons.css">
   </head>
   <body>
 	  <header>
@@ -14,9 +17,50 @@
 	  </header>
 
 	  <div class="fav">
-		  <div> <strong>Favoritos</strong></div>
-		  <div> <strong>Filtros</strong></div>
-		  <div> <strong>Buscador</strong></div>
+		  <div>
+         <strong>
+           <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
+              <a href="#" class="button button-inverse">
+                <i class="fa fa-star" aria-hidden="true"></i> Favoritos <i class="fa fa-caret-down"></i>
+              </a>
+
+              <ul class="button-dropdown-list is-below">
+                <li><a href="http://unicorn-ui.com/">Attack on Titans</a></li>
+                <li class="button-dropdown-divider">
+                  <a href="http://unicorn-ui.com/">Mahoutsukai no yome</a>
+                </li>
+                <li>
+                  <a href="#">Braviest Warriors</a>
+                </li>
+              </ul>
+            </span>
+        </strong>
+      </div>
+		  <div>
+        <strong>
+          <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
+             <a href="#" class="button button-inverse">
+               <i class="fa fa-filter" aria-hidden="true"></i> Filtros <i class="fa fa-caret-down"></i>
+             </a>
+
+             <ul class="button-dropdown-list is-below">
+               <li><a href="">Aventuras</a></li>
+               <li class="button-dropdown-divider">
+                 <a href="">Accion</a>
+               </li>
+               <li>
+                 <a href="">Romance</a>
+               </li>
+               <li>
+                 <a href="">Terror</a>
+               </li>
+               <li>
+                 <a href="">Fantasia</a>
+               </li>
+             </ul>
+           </span>
+        </strong></div>
+		  <div class="buscador"> <input type="text" placeholder="Buscar aquí..."> </div>
 	  </div>
 
     <div class="expli"><h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con unos pocos clicks</h2>
@@ -30,39 +74,39 @@
 
 		<section class="series">
 			<div class="slider-for">
-				<div class="item item1" data-image="img/series/another.jpg" style="background-image:url(img/series/another.jpg)">
+				<div class="item item1" data-image="img/series/another-big.jpg" style="background-image:url(img/series/another-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Another</h3>
 				</div>
-				<div class="item item2" data-image="img/series/dragon_ball.jpg" style="background-image:url(img/series/dragon_ball.jpg)">
+				<div class="item item2" data-image="img/series/dragon_ball-big.jpg" style="background-image:url(img/series/dragon_ball-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Dragon Ball</h3>
 				</div>
-				<div class="item item3" data-image="img/series/overlord.jpg" style="background-image:url(img/series/overlord.jpg)">
+				<div class="item item3" data-image="img/series/overlord-big.jpg" style="background-image:url(img/series/overlord-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Overlord</h3>
 				</div>
-				<div class="item item4" data-image="img/series/blood_lad.jpg" style="background-image:url(img/series/blood_lad.jpg)">
+				<div class="item item4" data-image="img/series/blood_lad-big.jpg" style="background-image:url(img/series/blood_lad-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Blood Lad</h3>
 				</div>
-				<div class="item item5" data-image="img/series/titans.jpg" style="background-image:url(img/series/titans.jpg)">
+				<div class="item item5" data-image="img/series/titans-big.jpg" style="background-image:url(img/series/titans-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Attack on Titans</h3>
 				</div>
-        <div class="item item6" data-image="img/series/mahoumo.jpg" style="background-image:url(img/series/mahoumo.jpg)">
+        <div class="item item6" data-image="img/series/mahoumo-big.jpg" style="background-image:url(img/series/mahoumo-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Mahoutsukai no yome</h3>
 				</div>
-        <div class="item item7" data-image="img/series/fairy.jpg" style="background-image:url(img/series/fairy.jpg)">
+        <div class="item item7" data-image="img/series/fairy-big.jpg" style="background-image:url(img/series/fairy-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Fairy Tail</h3>
 				</div>
-        <div class="item item8" data-image="img/series/warriors.png" style="background-image:url(img/series/warriors.png)">
+        <div class="item item8" data-image="img/series/warriors-big.png" style="background-image:url(img/series/warriors-big.jpg)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Braviest Warriors</h3>
 				</div>
-        <div class="item item9" data-image="img/series/zodiaco.jpg" style="background-image:url(img/series/zodiaco.jpg)">
+        <div class="item item9" data-image="img/series/zodiaco-big.png" style="background-image:url(img/series/zodiaco-big.png)">
 					<span class="episodio">episodio Nºx</span>
 					<h3>Caballeros del zodiaco</h3>
 				</div>
@@ -119,6 +163,8 @@
      </div>
      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/js/buttons.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
      <script type="text/javascript" src="js/index.js"></script>
   </body>
