@@ -1,8 +1,8 @@
 [{
     "id": 1,
     "title": "attack on titan",
-    "description": "En este mundo, la población humana vive concentrada dentro de tres enormes muros (María, Rose y Sina) para protegerse de la aparición de seres gigantescos que devoran personas: los titanes. Un día, el distrito Shiganshina, ubicado en una de las partes externas al sur del primer muro denominado María, es atacado por un titán, más grande que los demás, causando una brecha y abriendo el paso al resto de los titanes logrando así invadir la ciudad, incidente durante el cual la madre de Eren es devorada por un titán",
-    "images": ["img1", "img2", "img3"],
+    "description": "En este mundo, la población humana vive concentrada dentro de tres enormes muros (María, Rose y Sina) para protegerse de la aparición de seres gigantescos que devoran personas: los titanes. Un día, el distrito Shiganshina, ubicado en el primer muro denominado María, es atacado por un titán, más grande que los demás, abriendo el paso al resto de los titanes logrando así invadir la ciudad, incidente durante el cual la madre de Eren es devorada por un titán",
+    "images": "img/series/titans.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 2
   },
@@ -10,7 +10,7 @@
     "id": 2,
     "title": "Dragon ball",
     "description": "Su trama describe las aventuras de Gokū, un guerrero saiyajin, cuyo fin es proteger a la Tierra de otros seres que quieren conquistarla y exterminar a la humanidad",
-    "images": ["img1", "img2", "img3"],
+    "images": "img/series/dragon_ball.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 4
   },
@@ -18,7 +18,7 @@
     "id": 3,
     "title": "Overlord",
     "description": "En el año 2138, se decide descontinuar el DMMORPG Yggdrasil un juego que ha sido el más popular los últimos doce años pero ha caído en desuso el ultimo tiempo. El día que debían cerrarse los servidores del juego, Momonga; líder del gremio Ainz Ooal Gown, decide quedarse hasta que cierren, quedando atrapado en este nuevo mundo.",
-    "images": ["img1", "img2", "img3"],
+    "images": "img/series/overlord.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 2
   },
@@ -26,7 +26,7 @@
     "id": 4,
     "title": "Blood lad",
     "description": "Blood Lad cuenta la historia de Staz, un vampiro jefe de un distrito del surrealista \"Mundo de los Demonios\", el cual está encantado por la cultura del mundo humano (principalmente Japón). y Fuyumi, una chica normal que termina por accidente en el mundo de los demonios a través de un portal.",
-    "images": ["img1", "img2", "img3"],
+    "images": "img/series/blood_lad.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 1
   },
@@ -34,40 +34,40 @@
     "id": 5,
     "title": "Another",
     "description": "La historia se centra en Kōichi Sakakibara, un joven de noveno año que tras trasladarse a la escuela secundaria Yomiyama del Norte y conocer a la excéntrica Mei Misaki, se encuentra con un misterio girando alrededor de los estudiantes y personas relacionadas con su clase, quienes son víctimas de horribles muertes inexplicables.",
-    "images": ["img1", "img2", "img3"],
+    "images": "img/series/another.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 1
   },
   {
     "id": 6,
     "title": "Mahoutsukai no yome",
-    "description": ".",
-    "images": ["img1", "img2", "img3"],
+    "description": "Chise Hatori ha llevado una vida de abusos y de desprecio en la que no ha conocido nunca el amor. Sin el calor de una familia, su actitud ante la vida siempre ha sido derrotista. Cuando ya no tenía esperanza y la van a vender como esclava, aparece un hombre con cabeza de bestia y misteriosos poderes que la compra para ofrecerle convertirla en su aprendiz... y en su futura esposa.",
+    "images": "img/series/mahoumo.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 1
   },
   {
     "id": 7,
     "title": "Fairy Tail",
-    "description": ".",
-    "images": ["img1", "img2", "img3"],
+    "description": "Fairy Tail cuenta la historia de un joven mago llamado Natsu en la búsqueda de su maestro y padre adoptivo Igneel que resulta ser un dragón. Por ello se unió a Fairy Tail, un gremio de magos que es famoso por los destrozos y daños que provocan en diversas ciudades (lo cual no debería ser así).",
+    "images": "img/series/fairy_tail.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 1
   },
   {
     "id": 8,
     "title": "Braviest Warriors",
-    "description": ".",
-    "images": ["img1", "img2", "img3"],
+    "description": "Situado en el año 3085, la serie narra las aventuras de cuatro héroes a sueldo adolescentes, que viajan a través del universo salvando a extraterrestres adorables y a sus mundos con el poder de sus emociones.",
+    "images": "img/series/warriors.png",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 1
   },
   {
     "id": 9,
     "title": "Caballeros del zodiaco",
-    "description": ".",
-    "images": ["img1", "img2", "img3"],
+    "description": "La serie se centra en un grupo de jóvenes guerreros denominados «caballeros» (o «santos»), cuyo protagonista principal es Seiya (caballero que porta la armadura de Pegaso). Estos guerreros luchan del lado de la diosa griega Athena reencarnada en la humana Saori Kido para proteger a la humanidad de las fuerzas del mal que quieren dominar la Tierra.",
+    "images": "img/series/zodiaco.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 1
-  },
+  }
 ]

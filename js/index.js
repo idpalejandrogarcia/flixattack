@@ -8,7 +8,6 @@ $(document).ready(function() {
     centerMode: true,
     variableWidth: true
   });
-
 });
 
 var iframe = document.querySelector('.player');
@@ -17,3 +16,29 @@ function cambiaVideo(id, bigImagename) {
   iframe.src = 'https://www.youtube.com/embed/' + id;
   imagen.style = 'background-image:url(img/series/' + bigImagename + ')';
 }
+var options = {
+   url: "js/series.json",
+   getValue: "title",
+   cssClasses: "item-name",
+   template: {
+     type: "iconLeft",
+     fields: {
+       iconSrc: "images"
+     }
+   },
+
+   list: {
+     match: {
+       enabled: true
+     },
+     showAnimation: {
+       type: "slide"
+     },
+     hideAnimation: {
+       type: "slide"
+     }
+   }
+
+};
+
+$(".buscador").easyAutocomplete(options);

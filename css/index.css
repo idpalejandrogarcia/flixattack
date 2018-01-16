@@ -37,6 +37,7 @@ header .logotipo {
 /* Parte central de la pagina*/
 
 .expli{
+  font-family: 'Amatic SC', cursive;
   width: 100vw;
   color:white;
 }
