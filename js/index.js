@@ -1,19 +1,19 @@
 $(document).ready(function() {
-  $('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  adaptiveHeight: true,
-  asNavFor: '.slider-nav'
+  $('.slider-nav').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    variableWidth: true
+  });
+
 });
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  autoplay: true,
-  autoplaySpeed: 2000,
-  centerMode: true,
-  focusOnSelect: true
-});
-});
+
+var iframe = document.querySelector('.player');
+var imagen = document.querySelector('.slider-top');
+function cambiaVideo(id, bigImagename) {
+  iframe.src = 'https://www.youtube.com/embed/' + id;
+  imagen.style = 'background-image:url(img/series/' + bigImagename + ')';
+}
