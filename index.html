@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Proyecto de clase: Esto no es netflix</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-    <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="lib/buttons.css">
-  </head>
-  <body>
-	  <header>
-		  <img class="logotipo" src="img/logotipo.png" alt="logo">
-	  </header>
+    <head>
+        <title>Proyecto de clase: Esto no es netflix</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="lib/buttons.css">
+    </head>
+    <body>
+        <header>
+            <img class="logotipo" src="img/logotipo.png" alt="logo">
+        </header>
 
-	  <div class="fav">
-		  <div>
-         <strong>
+        <div class="fav">
+            <div>
+                <strong>
            <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
               <a href="#" class="button button-inverse">
                 <i class="fa fa-star" aria-hidden="true"></i> Favoritos <i class="fa fa-caret-down"></i>
@@ -34,10 +34,10 @@
                 </li>
               </ul>
             </span>
-        </strong>
-      </div>
-		  <div>
-        <strong>
+                </strong>
+            </div>
+            <div>
+                <strong>
           <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
              <a href="#" class="button button-inverse">
                <i class="fa fa-filter" aria-hidden="true"></i> Filtros <i class="fa fa-caret-down"></i>
@@ -59,82 +59,47 @@
                </li>
              </ul>
            </span>
-        </strong></div>
-		  <div class="buscador"> <input type="text" placeholder="Buscar aquí..."> </div>
-	  </div>
-
-    <div class="expli"><h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con unos pocos clicks</h2>
-      <h2>Pruebalo ahora:</h2>
-    </div>
-
-	  <div class="mitad">
-		<section class="publicidad">
-			<strong>Aqui colocar publicidad</strong>
-		</section>
-
-		<section class="series">
-			<div class="slider-for">
-				<div class="slider-top" style="background-image:url(img/fondo.png)">
-          <iframe class="player"></iframe>
-				</div>
-			</div>
-      <div class="slider-nav">
-				<div class="item item1" data-image="img/series/another.jpg" style="background-image:url(img/series/another.jpg)" onclick="cambiaVideo('taue8pzlNHQ', 'another-big.jpg')">
-					<span class="episodio"> Episodio Nº 1 (Sub)</span>
-					<h3>Another</h3>
-				</div>
-				<div class="item item2" data-image="img/series/dragon_ball.jpg" style="background-image:url(img/series/dragon_ball.jpg)" onclick="cambiaVideo('3pbw5ftKQ18', 'dragon_ball-big.jpg')">
-					<span class="episodio">Episodio Nº 1 </span>
-					<h3>Dragon Ball</h3>
-				</div>
-				<div class="item item3" data-image="img/series/overlord.jpg" style="background-image:url(img/series/overlord.jpg)" onclick="cambiaVideo('Pw90FhKPwx8', 'overlord-big.jpg')">
-					<span class="episodio">Maraton (ep 1 - 4)</span>
-					<h3>Overlord</h3>
-				</div>
-				<div class="item item4" data-image="img/series/blood_lad.jpg" style="background-image:url(img/series/blood_lad.jpg)" onclick="cambiaVideo('cNhv75d3Zzc', 'blood_lad-big.jpg')">
-					<span class="episodio">Episodio Nº 1</span>
-					<h3>Blood Lad</h3>
-				</div>
-				<div class="item item5" data-image="img/series/titans.jpg" style="background-image:url(img/series/titans.jpg)" onclick="cambiaVideo('UyAPHISrhOE', 'titans-big.jpg')">
-					<span class="episodio">Episodio Nº 1</span>
-					<h3>Attack on Titans</h3>
-				</div>
-        <div class="item item6" data-image="img/series/mahoumo.jpg" style="background-image:url(img/series/mahoumo.jpg)" onclick="cambiaVideo('juV8lD5KbRk', 'mahoumo-big.jpg')">
-					<span class="episodio">Episodio Nº 1</span>
-					<h3>Mahoutsukai no yome</h3>
-				</div>
-        <div class="item item7" data-image="img/series/fairy.jpg" style="background-image:url(img/series/fairy.jpg)" onclick="cambiaVideo('E0TZW52OvFk', 'fairy-big.jpg')">
-					<span class="episodio">Episodio Nº 1</span>
-					<h3>Fairy Tail</h3>
-				</div>
-        <div class="item item8" data-image="img/series/warriors.png" style="background-image:url(img/series/warriors.png)" onclick="cambiaVideo('4AZt4S82uAk', 'warriors-big.jpg')">
-					<span class="episodio">Episodio Nº 1</span>
-					<h3>Braviest Warriors</h3>
-				</div>
-        <div class="item item9" data-image="img/series/zodiaco.jpg" style="background-image:url(img/series/zodiaco.jpg)" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">
-					<span class="episodio">Episodio Nº 1</span>
-					<h3>Caballeros del zodiaco</h3>
-				</div>
-			</div>
-		</section>
-	  </div>
-
-	  <div class="footer">
-      <div></div>
-       <div><strong>Alejandro garcia yumar, trabajo de fin de curso: flixattack. Contacta conmigo via:</strong></div>
-        <div class="contacto">
-          <p><a href="https://twitter.com/raxesforged"><i class="fab fa-twitter" aria-hidden="true"></i></a></p>
-          <p><a href="https://codepen.io/raxes/#"><i class="fab fa-codepen" aria-hidden="true"></i></a></p>
-          <p><a href="https://www.facebook.com/alejandro.garciayumar"><i class="fab fa-facebook" aria-hidden="true"></i></a></p>
+                </strong></div>
+            <div class="buscador"><input type="text" placeholder="Buscar aquí..."></div>
         </div>
-     </div>
-     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/js/buttons.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-     <script type="text/javascript" src="js/index.js"></script>
-  </body>
+
+        <div class="expli"><h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con unos pocos clicks</h2>
+            <h2>Pruebalo ahora:</h2>
+        </div>
+
+        <div class="mitad">
+            <section class="publicidad">
+                <strong>Aqui colocar publicidad</strong>
+            </section>
+
+            <section class="series">
+                <div class="slider-for">
+                    <div class="slider-top" style="background-image:url(img/fondo.png)">
+                        <iframe class="player"></iframe>
+                    </div>
+                </div>
+                <div id="contenedor-series" class="slider-nav">
+                    <!-- AQUI VAN LAS SERIES DEL JSON -->
+                </div>
+            </section>
+        </div>
+
+        <div class="footer">
+            <div></div>
+            <div><strong>Alejandro garcia yumar, trabajo de fin de curso: flixattack. Contacta conmigo via:</strong></div>
+            <div class="contacto">
+                <p><a href="https://twitter.com/raxesforged"><i class="fab fa-twitter" aria-hidden="true"></i></a></p>
+                <p><a href="https://codepen.io/raxes/#"><i class="fab fa-codepen" aria-hidden="true"></i></a></p>
+                <p><a href="https://www.facebook.com/alejandro.garciayumar"><i class="fab fa-facebook" aria-hidden="true"></i></a></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/js/buttons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
 </html>

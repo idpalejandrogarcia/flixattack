@@ -50,7 +50,7 @@
     "id": 7,
     "title": "Fairy Tail",
     "description": "Fairy Tail cuenta la historia de un joven mago llamado Natsu en la búsqueda de su maestro y padre adoptivo Igneel que resulta ser un dragón. Por ello se unió a Fairy Tail, un gremio de magos que es famoso por los destrozos y daños que provocan en diversas ciudades (lo cual no debería ser así).",
-    "images": "img/series/fairy_tail.jpg",
+    "images": "img/series/fairy.jpg",
     "videos": ["vid1", "vid2", "vid3"],
     "numtemp": 1
   },
