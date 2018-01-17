@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Proyecto de clase: Esto no es netflix</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/index.css" type="text/css">
-        <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="lib/buttons.css">
-    </head>
-    <body>
-        <header>
-            <img class="logotipo" src="img/logotipo.png" alt="logo">
-        </header>
 
-        <div class="fav">
-            <div>
-                <strong>
-           <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
-              <a href="#" class="button button-inverse">
-                <i class="fa fa-star" aria-hidden="true"></i> Favoritos <i class="fa fa-caret-down"></i>
-              </a>
+<head>
+  <title>Proyecto de clase: Esto no es netflix</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+  <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="lib/buttons.css">
+</head>
 
-              <ul class="button-dropdown-list is-below">
-                <li><a href="http://unicorn-ui.com/">Attack on Titans</a></li>
-                <li class="button-dropdown-divider">
-                  <a href="http://unicorn-ui.com/">Mahoutsukai no yome</a>
-                </li>
-                <li>
-                  <a href="#">Braviest Warriors</a>
-                </li>
-              </ul>
-            </span>
-                </strong>
-            </div>
-            <div>
-                <strong>
-          <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
+<body>
+  <header>
+    <img class="logotipo" src="img/logotipo.png" alt="logo">
+  </header>
+
+  <div class="fav">
+    <div class="box box-grey">
+      <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
+        <a href="#" class="button button-inverse">
+          <i class="fa fa-star" aria-hidden="true"></i> Favoritos <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="button-dropdown-list is-below">
+          <li><a href="http://unicorn-ui.com/">Attack on Titans</a></li>
+          <li class="button-dropdown-divider">
+            <a href="http://unicorn-ui.com/">Mahoutsukai no yome</a>
+          </li>
+          <li>
+            <a href="#">Braviest Warriors</a>
+          </li>
+        </ul>
+      </span>
+    </div>
+    <div class="box box-grey">
+      <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
              <a href="#" class="button button-inverse">
                <i class="fa fa-filter" aria-hidden="true"></i> Filtros <i class="fa fa-caret-down"></i>
              </a>
@@ -58,48 +56,51 @@
                  <a href="">Fantasia</a>
                </li>
              </ul>
-           </span>
-                </strong></div>
-            <div class="buscador"><input type="text" placeholder="Buscar aquí..."></div>
+          </span>
         </div>
+    <div class="buscador box">
+      <input type="text" placeholder="Buscar aquí...">
+    </div>
+  </div>
 
-        <div class="expli"><h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con unos pocos clicks</h2>
-            <h2>Pruebalo ahora:</h2>
+  <div class="expli">
+    <h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con unos pocos clicks</h2>
+    <h2>Pruebalo ahora:</h2>
+  </div>
+
+  <div class="mitad">
+    <section class="publicidad">
+      <strong>Aqui colocar publicidad</strong>
+    </section>
+
+    <section class="series">
+      <div class="slider-for">
+        <div class="slider-top" style="background-image:url(img/fondo.png)">
+          <iframe class="player"></iframe>
         </div>
+      </div>
+      <div id="contenedor-series" class="slider-nav">
+        <!-- AQUI VAN LAS SERIES DEL JSON -->
+      </div>
+    </section>
+  </div>
 
-        <div class="mitad">
-            <section class="publicidad">
-                <strong>Aqui colocar publicidad</strong>
-            </section>
+  <div class="footer">
+    <div class="info"><strong>Alejandro garcia yumar, trabajo de fin de curso: flixattack. Contacta conmigo via:</strong></div>
+    <div class="contacto">
+      <p><a href="https://twitter.com/raxesforged"><i class="fab fa-twitter" aria-hidden="true"></i></a></p>
+      <p><a href="https://codepen.io/raxes/#"><i class="fab fa-codepen" aria-hidden="true"></i></a></p>
+      <p><a href="https://www.facebook.com/alejandro.garciayumar"><i class="fab fa-facebook" aria-hidden="true"></i></a></p>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/js/buttons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
 
-            <section class="series">
-                <div class="slider-for">
-                    <div class="slider-top" style="background-image:url(img/fondo.png)">
-                        <iframe class="player"></iframe>
-                    </div>
-                </div>
-                <div id="contenedor-series" class="slider-nav">
-                    <!-- AQUI VAN LAS SERIES DEL JSON -->
-                </div>
-            </section>
-        </div>
-
-        <div class="footer">
-            <div></div>
-            <div><strong>Alejandro garcia yumar, trabajo de fin de curso: flixattack. Contacta conmigo via:</strong></div>
-            <div class="contacto">
-                <p><a href="https://twitter.com/raxesforged"><i class="fab fa-twitter" aria-hidden="true"></i></a></p>
-                <p><a href="https://codepen.io/raxes/#"><i class="fab fa-codepen" aria-hidden="true"></i></a></p>
-                <p><a href="https://www.facebook.com/alejandro.garciayumar"><i class="fab fa-facebook" aria-hidden="true"></i></a></p>
-            </div>
-        </div>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/js/buttons.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
 </html>

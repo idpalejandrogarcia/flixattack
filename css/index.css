@@ -18,21 +18,32 @@ header .logotipo {
 
 .fav {
     background-color: #3e3e3e;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
-.fav div {
+.fav .box {
   border: 1px solid;
   width: 230px;
-  height: 40px;
+  /* vertical-align: top; */
+}
+.fav .box-grey {
   background-color: grey;
-  display: inline-block;
-  vertical-align: top;
 }
 .buscador input{
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   width: 100%;
-  height: 85%;
+}
+.easy-autocomplete-container {
+  height: 0;
+}
+element.style {
+    width: 232px;
+    height: 42px;
+    position: relative;
+    z-index: 999;
 }
 /* Parte central de la pagina*/
 
@@ -76,9 +87,6 @@ header .logotipo {
 }
 
 
-.series .grid {
-}
-
 .series .item {
 	width: 200px;
 	height: 150px;
@@ -95,7 +103,7 @@ header .logotipo {
 
 .slider-for .slider-top {
 	width: 97%;
-  height: 50vh;
+  height: 40vh;
 	background-color: black;
   background-repeat: no-repeat;
   background-position: center;
@@ -128,19 +136,24 @@ font-family: 'Berkshire Swash', cursive;
 /*pie de pagina*/
 
 .footer{
+  margin-top: 1%;
   border: 1px solid;
   height: 119px;
   width: 100vw;
   background-color: #232323;
-  display: inline-flex;
+  display: block;
   justify-content:center;
   align-items: center;
 }
-.footer strong {
+.footer .info {
+margin-top: 2%;
 color: white;
-text-shadow: 2px 2px #ff0000;
+font-family: 'Amatic SC', cursive;
 }
 .contacto p {
   display: inline-flex;
   justify-content:space-around;
+}
+.contacto a {
+  color: #5DD6DE;
 }
