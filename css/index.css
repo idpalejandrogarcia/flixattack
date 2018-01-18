@@ -1,5 +1,5 @@
-
 /* Estructura de la pagina */
+
 body {
   background-color: black;
   text-align: center;
@@ -8,8 +8,8 @@ body {
 
 /*cabecera*/
 
-header{
-background-color: #DE0202;
+header {
+  background-color: #DE0202;
 }
 
 header .logotipo {
@@ -17,10 +17,10 @@ header .logotipo {
 }
 
 .fav {
-    background-color: #3e3e3e;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+  background-color: #3e3e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fav .box {
@@ -28,18 +28,26 @@ header .logotipo {
   width: 230px;
   /* vertical-align: top; */
 }
+
 .fav .box-grey {
   background-color: grey;
 }
-.buscador input{
+
+.buscador input {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   width: 100%;
 }
+
 .easy-autocomplete-container {
   height: 0;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  z-index: 999;
+  color: white;
 }
-/* 
+
+/*
 parametros que use para arreglarlo en el inspeccinar elemento
 element.style {
     width: 232px;
@@ -47,31 +55,35 @@ element.style {
     position: relative;
     z-index: 999;
 } */
+
 /* Parte central de la pagina*/
 
-.expli{
+.expli {
   font-family: 'Amatic SC', cursive;
   width: 100vw;
-  color:white;
+  color: white;
 }
 
-.mitad{
+.mitad {
   width: 702px;
-  margin:auto;
+  margin: auto;
   height: 550px;
   background-color: black;
 }
+
 .publicidad {
   width: 230px;
   background-color: #292929;
-  color:#7B7B7B;
+  color: #7B7B7B;
   display: inline-block;
   vertical-align: top;
   position: absolute;
   left: 0;
   padding: 10px;
-  display: none; /*Temporal*/
+  display: none;
+  /*Temporal*/
 }
+
 .series {
   border: 1px solid;
   width: 702px;
@@ -80,82 +92,90 @@ element.style {
   display: inline-block;
 }
 
-.player{
-  border:0;
-  display:block;
-  width:400px;
-  min-height:200px;
-  margin:auto;
+.player {
+  border: 0;
+  display: block;
+  width: 400px;
+  min-height: 200px;
+  margin: auto;
 }
-
 
 .series .item {
-	width: 200px;
-	height: 150px;
-	background-color: white;
-	margin: 5px;
-	/* display: inline-block; */
-	display: inline-flex;
-	border:2px solid black;
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  margin: 5px;
+  /* display: inline-block; */
+  display: inline-flex;
+  border: 2px solid black;
 }
 
-.slider-for{
+.slider-for {
   height: 70%;
 }
 
 .slider-for .slider-top {
-	width: 97%;
+  width: 97%;
   height: 40vh;
-	background-color: black;
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center;
-	margin: 5px;
-	/* display: inline-block; */
-	display: inline-flex;
-	border:2px solid black;
+  margin: 5px;
+  /* display: inline-block; */
+  display: inline-flex;
+  border: 2px solid black;
 }
 
 .series .item:hover {
-	transform:scale(1.2);
-	transform:translateY(-3px);
-	border-color:red;
-	transition:all 0.8s;
+  transform: scale(1.2);
+  transform: translateY(-3px);
+  border-color: red;
+  transition: all 0.8s;
 }
 
 .series h3 {
-color: white;
-text-shadow: 2px 2px #ff0000;
-font-family: 'Berkshire Swash', cursive;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .series .episodio {
-	color: white;
-	background-color: orange;
-	padding: 2px;
+  color: white;
+  background-color: orange;
+  padding: 2px;
   opacity: 0.8;
 }
 
 /*pie de pagina*/
 
-.footer{
+.footer {
   margin-top: 1%;
   border: 1px solid;
   height: 119px;
   width: 100vw;
   background-color: #232323;
   display: block;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 .footer .info {
-margin-top: 2%;
-color: white;
-font-family: 'Amatic SC', cursive;
+  margin-top: 2%;
+  color: white;
+  font-family: 'Amatic SC', cursive;
 }
+#contenedor-descripcion{
+  color: white;
+  text-shadow: 2px 2px #2D9FA6;
+  font-family: 'Berkshire Swash', cursive;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .contacto p {
   display: inline-flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
+
 .contacto a {
   color: #5DD6DE;
 }

@@ -94,38 +94,7 @@ function cargarContenido() {
         $('#contenedor-series').append(serieElement);
     }
     /**
-     <div class="item item1" data-image="img/series/another.jpg" style="background-image:url(img/series/another.jpg)" onclick="cambiaVideo('taue8pzlNHQ', 'another-big.jpg')">
-     <span class="episodio"> Episodio Nº 1 (Sub)</span>
-     <h3>Another</h3>
-     </div>
-     <div class="item item2" data-image="img/series/dragon_ball.jpg" style="background-image:url(img/series/dragon_ball.jpg)" onclick="cambiaVideo('3pbw5ftKQ18', 'dragon_ball-big.jpg')">
-     <span class="episodio">Episodio Nº 1 </span>
-     <h3>Dragon Ball</h3>
-     </div>
-     <div class="item item3" data-image="img/series/overlord.jpg" style="background-image:url(img/series/overlord.jpg)" onclick="cambiaVideo('Pw90FhKPwx8', 'overlord-big.jpg')">
-     <span class="episodio">Maraton (ep 1 - 4)</span>
-     <h3>Overlord</h3>
-     </div>
-     <div class="item item4" data-image="img/series/blood_lad.jpg" style="background-image:url(img/series/blood_lad.jpg)" onclick="cambiaVideo('cNhv75d3Zzc', 'blood_lad-big.jpg')">
-     <span class="episodio">Episodio Nº 1</span>
-     <h3>Blood Lad</h3>
-     </div>
-     <div class="item item5" data-image="img/series/titans.jpg" style="background-image:url(img/series/titans.jpg)" onclick="cambiaVideo('UyAPHISrhOE', 'titans-big.jpg')">
-     <span class="episodio">Episodio Nº 1</span>
-     <h3>Attack on Titans</h3>
-     </div>
-     <div class="item item6" data-image="img/series/mahoumo.jpg" style="background-image:url(img/series/mahoumo.jpg)" onclick="cambiaVideo('juV8lD5KbRk', 'mahoumo-big.jpg')">
-     <span class="episodio">Episodio Nº 1</span>
-     <h3>Mahoutsukai no yome</h3>
-     </div>
-     <div class="item item7" data-image="img/series/fairy.jpg" style="background-image:url(img/series/fairy.jpg)" onclick="cambiaVideo('E0TZW52OvFk', 'fairy-big.jpg')">
-     <span class="episodio">Episodio Nº 1</span>
-     <h3>Fairy Tail</h3>
-     </div>
-     <div class="item item8" data-image="img/series/warriors.png" style="background-image:url(img/series/warriors.png)" onclick="cambiaVideo('4AZt4S82uAk', 'warriors-big.jpg')">
-     <span class="episodio">Episodio Nº 1</span>
-     <h3>Braviest Warriors</h3>
-     </div>
+    Ejemplo de lso divs del slick
      <div class="item item9" data-image="img/series/zodiaco.jpg" style="background-image:url(img/series/zodiaco.jpg)" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">
      <span class="episodio">Episodio Nº 1</span>
      <h3>Caballeros del zodiaco</h3>
@@ -150,12 +119,15 @@ $(document).ready(function () {
 
 var iframe = document.querySelector('.player');
 var imagen = document.querySelector('.slider-top');
+var descripcion = document.querySelector('#contenedor-descripcion');
 
 function cambiaVideo(posicionSerie) {
     var id = series[posicionSerie].videos;
     var urlImage = series[posicionSerie].images_big;
+    var descrip = series[posicionSerie].description;
     iframe.src = 'https://www.youtube.com/embed/' + id;
     imagen.style = 'background-image:url(img/series/' + urlImage + ')';
+    descripcion.innerHTML = descrip ;
 }
 
 var options = {
