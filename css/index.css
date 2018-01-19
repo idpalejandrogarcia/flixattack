@@ -170,7 +170,11 @@ element.style {
   padding-left: 15%;
   padding-right: 15%;
 }
-
+form fieldset{
+  color: white;
+  text-shadow: 2px 2px #2D9FA6;
+  font-family: 'Berkshire Swash', cursive;
+}
 .contacto p {
   display: inline-flex;
   justify-content: space-around;
