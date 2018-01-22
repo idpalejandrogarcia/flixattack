@@ -152,7 +152,7 @@ element.style {
   margin-top: 1%;
   border: 1px solid;
   height: 119px;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: #232323;
   display: block;
   justify-content: center;
