@@ -25,12 +25,12 @@
           <i class="fa fa-star" aria-hidden="true"></i> Favoritos <i class="fa fa-caret-down"></i>
         </a>
         <ul class="button-dropdown-list is-below">
-          <li><a href="http://unicorn-ui.com/">Attack on Titans</a></li>
+          <li><a href="" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">Attack on Titans</a></li>
           <li class="button-dropdown-divider">
-            <a href="http://unicorn-ui.com/">Mahoutsukai no yome</a>
+            <a href="" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">Mahoutsukai no yome</a>
           </li>
           <li>
-            <a href="#">Braviest Warriors</a>
+            <a href="#" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">Braviest Warriors</a>
           </li>
         </ul>
       </span>
@@ -54,6 +54,20 @@
                </li>
                <li>
                  <a href="">Fantasia</a>
+               </li>
+             </ul>
+          </span>
+    </div>
+    <div class="box box-grey">
+      <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
+             <a href="#" class="button button-inverse">
+              Iniciar sesion <i class="fa fa-caret-down"></i>
+             </a>
+
+             <ul class="button-dropdown-list is-below">
+               <li><a href="">Login</a></li>
+               <li class="button-dropdown-divider">
+                 <a href="#registro">Registrarse</a>
                </li>
              </ul>
           </span>
@@ -96,6 +110,7 @@
         <form name="formulario" method="post" action="http://pagina.com/send.php">
           <label>
             <!-- Primer campo de entrada de datos -->
+            <a name="registro" id="registro"></a>
             Nombre de usuario:
             <input type="text" name="nombreus" value="" placeholder='Tu nombre' maxlength="50" required>
           </label><br>

@@ -36,7 +36,7 @@ header .logotipo {
 .buscador input {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
-  width: 100%;
+  width: 60%;
 }
 
 .easy-autocomplete-container {
@@ -87,7 +87,7 @@ element.style {
 .series {
   border: 1px solid;
   width: 702px;
-  height: 549px;
+  height: 60vh;
   background-color: grey;
   display: inline-block;
 }
@@ -116,7 +116,7 @@ element.style {
 
 .slider-for .slider-top {
   width: 97%;
-  height: 40vh;
+  height: 97%;
   background-color: black;
   background-repeat: no-repeat;
   background-position: center;
