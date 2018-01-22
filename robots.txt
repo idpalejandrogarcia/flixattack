@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+ sitemap: https://idpalejandrogarcia.github.io/sitemap.xml;
