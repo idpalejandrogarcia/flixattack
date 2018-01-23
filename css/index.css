@@ -77,9 +77,9 @@ element.style {
 }
 
 .mitad {
-  width: 702px;
+  width: 70%;
   margin: auto;
-  /* height: 550px; */
+  height: 55%;
   background-color: black;
 }
 
