@@ -1,7 +1,7 @@
 var series = [
     {
         "id": 1,
-        "title": "attack on titan",
+        "title": "Attack on titan",
         "description": "En este mundo, la población humana vive concentrada dentro de tres enormes muros (María, Rose y Sina) para protegerse de la aparición de seres gigantescos que devoran personas: los titanes. Un día, el distrito Shiganshina, ubicado en el primer muro denominado María, es atacado por un titán, más grande que los demás, abriendo el paso al resto de los titanes logrando así invadir la ciudad, incidente durante el cual la madre de Eren es devorada por un titán",
         "images": "img/series/titans.jpg",
         "images_big": "titans-big.jpg",
@@ -127,7 +127,7 @@ function cambiaVideo(posicionSerie) {
     var descrip = series[posicionSerie].description;
     iframe.src = 'https://www.youtube.com/embed/' + id;
     imagen.style = 'background-image:url(img/series/' + urlImage + ')';
-    descripcion.innerHTML = descrip ;
+    descripcion.innerHTML = descrip;
 }
 
 var options = {
@@ -145,14 +145,29 @@ var options = {
         match: {
             enabled: true
         },
-        showAnimation: {
-            type: "slide"
-        },
-        hideAnimation: {
-            type: "slide"
-        }
+          showAnimation: {
+              type: "slide"
+          },
+        // hideAnimation: {
+        //     type: "slide"
+        // },
+        onClickEvent: function() {
+          var sel = $('.easy-autocomplete-container .selected').text();
+          irVideo(sel);
+		    }
     }
 
 };
+
+// Función para buscar una serie por su título (devuelve id)
+function irVideo(title) {
+  series.forEach(function(e) {
+    console.log(e.title);
+
+    if (title == e.title) {
+      cambiaVideo(e.id -1);
+    }
+  })
+}
 
 $(".buscador").easyAutocomplete(options);

@@ -4,13 +4,33 @@
 <head>
   <title>Flixattack</title>
   <meta charset="utf-8">
+  <meta name="keywords" content="anime, series, flixattack">
+  <meta name="description" content="Pagina web para reproduccion de videos con futura colaboracion de usuarios.">
   <link rel="stylesheet" href="css/index.css" type="text/css">
   <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.min.css">
   <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="lib/buttons.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-112947621-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
 </head>
 
 <body>
@@ -25,12 +45,12 @@
           <i class="fa fa-star" aria-hidden="true"></i> Favoritos <i class="fa fa-caret-down"></i>
         </a>
         <ul class="button-dropdown-list is-below">
-          <li><a href="" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">Attack on Titans</a></li>
+          <li><a href="#" onclick="irVideo('Attack on titan')">Attack on Titans</a></li>
           <li class="button-dropdown-divider">
-            <a href="" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">Mahoutsukai no yome</a>
+            <a href="#" onclick="irVideo('Mahoutsukai no yome')">Mahoutsukai no yome</a>
           </li>
           <li>
-            <a href="#" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">Braviest Warriors</a>
+            <a href="#" onclick="irVideo('Braviest Warriors')">Braviest Warriors</a>
           </li>
         </ul>
       </span>
@@ -38,22 +58,25 @@
     <div class="box box-grey">
       <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
              <a href="#" class="button button-inverse">
-               <i class="fa fa-filter" aria-hidden="true"></i> Filtros <i class="fa fa-caret-down"></i>
+               <i class="fa fa-filter" aria-hidden="true"></i> Secciones <i class="fa fa-caret-down"></i>
              </a>
 
              <ul class="button-dropdown-list is-below">
-               <li><a href="">Aventuras</a></li>
+               <li><a href="#Inicio">Inicio</a></li>
                <li class="button-dropdown-divider">
-                 <a href="">Accion</a>
+                 <a href="#Presentacion">Presentacion</a>
                </li>
                <li>
-                 <a href="">Romance</a>
+                 <a href="#Buscador">Buscador</a>
                </li>
                <li>
-                 <a href="">Terror</a>
+                 <a href="#Capitulos">Capitulos mas vistos</a>
                </li>
                <li>
-                 <a href="">Fantasia</a>
+                 <a href="#registro">Registro</a>
+               </li>
+               <li>
+                 <a href="#contacto">Contacto</a>
                </li>
              </ul>
           </span>
@@ -74,13 +97,18 @@
     </div>
   </div>
   <div class="expli">
+    <a name="Presentacion" id="Presentacion"></a>
     <h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con unos pocos clicks</h2>
     <h2>Pruebalo ahora:</h2>
   </div>
-  <div class="buscador box">
-    <input type="text" placeholder="Buscar aquí tu serie...">
+  <a name="Buscador" class="Buscador"></a>
+  <div class="buscador">
+    <div class=" box">
+      <input type="text" placeholder="Buscar aquí tu serie...">
+    </div>
   </div>
   <div class="mitad">
+    <a name="Capitulos" id="Capitulos"></a>
     <section class="publicidad">
       <strong>Aqui colocar publicidad</strong>
     </section>
@@ -102,7 +130,11 @@
     </p>
   </div>
   <!-- AQUI va ha hacer referencia para posible desplegable -->
-
+  <div class="recomendacion">
+    <div id="contenedor-series">
+      <!-- AQUI VAN LAS SERIES DEL JSON -->
+    </div>
+  </div>
   <div class="formulario">
     <form name="formulario" action="js/index.js" method="post">
       <fieldset>
@@ -152,6 +184,7 @@
   </div>
 
   <div class="footer">
+    <a name="contacto" id="contacto"></a>
     <div class="info"><strong>Alejandro garcia yumar, trabajo de fin de curso: flixattack. Contacta conmigo via:</strong></div>
     <div class="contacto">
       <p><a href="https://twitter.com/raxesforged"><i class="fab fa-twitter" aria-hidden="true"></i></a></p>

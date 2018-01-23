@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "title": "attack on titan",
+    "title": "Attack on titan",
     "description": "En este mundo, la población humana vive concentrada dentro de tres enormes muros (María, Rose y Sina) para protegerse de la aparición de seres gigantescos que devoran personas: los titanes. Un día, el distrito Shiganshina, ubicado en el primer muro denominado María, es atacado por un titán, más grande que los demás, abriendo el paso al resto de los titanes logrando así invadir la ciudad, incidente durante el cual la madre de Eren es devorada por un titán",
     "images": "img/series/titans.jpg",
     "videos": ["vid1", "vid2", "vid3"],

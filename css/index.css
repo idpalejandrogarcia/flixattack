@@ -3,7 +3,8 @@
 body {
   background-color: black;
   text-align: center;
-  margin: 0;
+  /* margin: 0;
+  overflow-x: hidden; */
 }
 
 /*cabecera*/
@@ -32,6 +33,15 @@ header .logotipo {
 .fav .box-grey {
   background-color: grey;
 }
+.buscador{
+  width: 95%;
+  margin: auto;
+  margin-bottom:32px;
+}
+.buscador.box {
+  width:600px;
+  margin: auto;
+}
 
 .buscador input {
   font-family: 'Amatic SC', cursive;
@@ -41,10 +51,12 @@ header .logotipo {
 
 .easy-autocomplete-container {
   height: 0;
+  max-width: 60%;
   font-family: 'Amatic SC', cursive;
   position: relative;
   z-index: 999;
-  color: white;
+  color: black;
+
 }
 
 /*
@@ -60,7 +72,7 @@ element.style {
 
 .expli {
   font-family: 'Amatic SC', cursive;
-  width: 100vw;
+  width: 95vw;
   color: white;
 }
 
@@ -146,6 +158,14 @@ element.style {
   opacity: 0.8;
 }
 
+/*Zona de recomendaciones*/
+.recomendacion{
+  width: 95vw;
+  height: 95vh;
+  background-color: white;
+  margin:auto;
+  display: none;
+}
 /*pie de pagina*/
 
 .footer {
