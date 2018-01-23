@@ -135,9 +135,13 @@ var options = {
     getValue: "title",
     cssClasses: "item-name",
     template: {
-        type: "iconLeft",
-        fields: {
-            iconSrc: "images"
+        // type: "iconLeft",
+        // fields: {
+        //     iconSrc: "images"
+        // }
+        type: "custom",
+        method: function(value, item) {
+          return "<img src='" + item.images + "'> <span>" + value + "</span>";
         }
     },
 
@@ -152,7 +156,8 @@ var options = {
         //     type: "slide"
         // },
         onClickEvent: function() {
-          var sel = $('.easy-autocomplete-container .selected').text();
+          var sel = $('.easy-autocomplete-container .selected').text().trim();
+          console.log('->', sel, '<-')
           irVideo(sel);
 		    }
     }
@@ -162,7 +167,7 @@ var options = {
 // Función para buscar una serie por su título (devuelve id)
 function irVideo(title) {
   series.forEach(function(e) {
-    console.log(e.title);
+    //console.log(e.title);
 
     if (title == e.title) {
       cambiaVideo(e.id -1);
@@ -170,4 +175,4 @@ function irVideo(title) {
   })
 }
 
-$(".buscador").easyAutocomplete(options);
+$(".buscador .box input").easyAutocomplete(options);

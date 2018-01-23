@@ -38,9 +38,14 @@ header .logotipo {
   margin: auto;
   margin-bottom:32px;
 }
-.buscador.box {
-  width:600px;
+
+.buscador .box {
   margin: auto;
+  max-width: 600px;
+}
+
+#search {
+  width:600px;
 }
 
 .buscador input {
@@ -49,14 +54,28 @@ header .logotipo {
   width: 60%;
 }
 
-.easy-autocomplete-container {
-  height: 0;
-  max-width: 60%;
+.pagina {
+  max-width:1000px;
+  margin:auto;
+}
+
+.pagina .easy-autocomplete-container {
+  /* height: 0;
+  max-width: 60%; */
   font-family: 'Amatic SC', cursive;
+  font-size: 33px;
   position: relative;
   z-index: 999;
   color: black;
+}
 
+.pagina .easy-autocomplete-container ul li div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagina .easy-autocomplete-container ul li div span {
+  font-size:78px;
 }
 
 /*
@@ -72,7 +91,7 @@ element.style {
 
 .expli {
   font-family: 'Amatic SC', cursive;
-  width: 95vw;
+  /* width: 95vw; */
   color: white;
 }
 
