@@ -189,6 +189,7 @@ element.style {
   font-family: 'Berkshire Swash', cursive;
   padding-left: 15%;
   padding-right: 15%;
+  font-size: 75%;
 }
 form fieldset{
   color: white;
