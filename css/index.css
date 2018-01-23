@@ -183,6 +183,11 @@ element.style {
   color: white;
   font-family: 'Amatic SC', cursive;
 }
+.contenedor-descripcion{
+  margin: auto;
+  width: 60%;
+  height: 50%;
+}
 #contenedor-descripcion{
   color: white;
   text-shadow: 2px 2px #2D9FA6;
