@@ -126,6 +126,10 @@ function cambiaVideo(posicionSerie) {
     var urlImage = series[posicionSerie].images_big;
     var descrip = series[posicionSerie].description;
     iframe.src = 'https://www.youtube.com/embed/' + id;
+    var requestFullScreen = iframe.requestFullScreen || iframe.mozRequestFullScreen || iframe.webkitRequestFullScreen;
+    if (requestFullScreen) {
+      requestFullScreen.bind(iframe)();
+    }
     imagen.style = 'background-image:url(img/series/' + urlImage + ')';
     descripcion.innerHTML = descrip;
 }
