@@ -108,7 +108,7 @@
 
   <div class="pagina">
     <div id="Presentacion" class="expli">
-      <h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con unos pocos clicks</h2>
+      <h2>Flixattack es una pagina novedosa en la que se puede encontrar las series del momento con pocos clicks</h2>
       <h2>Pruebalo ahora:</h2>
     </div>
 
@@ -146,54 +146,56 @@
         <!-- AQUI VAN LAS SERIES DEL JSON -->
       </div>
     </div>
-
-    <div class="formulario">
-      <form name="formulario" action="js/index.js" method="post">
-        <fieldset>
-          <legend>Participe en la pagina y gane beneficios permanentes</legend>
-          <form name="formulario" method="post" action="http://pagina.com/send.php">
+    <details>
+      <summary>Formulario de inscripción</summary>
+      <div class="formulario">
+        <form name="formulario" action="js/index.js" method="post">
+          <fieldset>
+            <legend>Participe en la pagina y gane beneficios permanentes</legend>
+              <label>
+                <!-- Primer campo de entrada de datos -->
+                <a name="registro" id="registro"></a>
+                Nombre de usuario:
+                <input type="text" name="nombreus" value="" placeholder='Tu nombre' maxlength="50" required>
+              </label><br>
+              <label>
+                Nombre:
+                <input type="text" name="nombre" value="" placeholder='Tu nombre' maxlength="50" required>
+               </label><br>
+              <label>
+                Contraseña:
+                <input type="password" name="contra" value="" placeholder='Tu contraseña' required>
+              </label><br>
+              <label>
+                <!-- Campo de entrada de teléfono -->
+                Teléfono: <input type="tel" name="telefono" placeholder="+XX XXX XXXXXX" maxlength="9" required>
+              </label><br>
+              <!-- Campo de entrada de email -->
+              <label>
+                Email:
+                <input type="email" name="correo" placeholder="nombre@dominio.com"><br>
+              </label>
+          </fieldset>
+          <fieldset>
+            <legend>Introduccion de informacion para la subida de las series</legend>
+            <!-- Primer campo de entrada de datos -->
             <label>
-              <!-- Primer campo de entrada de datos -->
-              <a name="registro" id="registro"></a>
-              Nombre de usuario:
-              <input type="text" name="nombreus" value="" placeholder='Tu nombre' maxlength="50" required>
+                Nombre de serie:
+              <input type="text" name="nombrese" value="" placeholder='ej: dragon ball' maxlength="50" required>
+            </label> <br>
+            <label>
+             Codigo de youtube:
+            <input type="text" name="youtube" value="" placeholder='ej:bQp3oIFSKfs' maxlength="50" required>
             </label><br>
             <label>
-              Nombre:
-              <input type="text" name="nombre" value="" placeholder='Tu nombre' maxlength="50" required>
-             </label><br>
-            <label>
-              Contraseña:
-              <input type="password" name="contra" value="" placeholder='Tu contraseña' required>
+            Descripcion de la serie:
+            <input type="textarea" name="descripcion" value="" placeholder='ej:bQp3oIFSKfs' required>
             </label><br>
-            <label>
-              <!-- Campo de entrada de teléfono -->
-              Teléfono: <input type="tel" name="telefono" placeholder="+XX XXX XXXXXX" maxlength="9" required>
-            </label><br>
-            <!-- Campo de entrada de email -->
-            <label>
-              Email:
-              <input type="email" name="correo" placeholder="nombre@dominio.com"><br>
-            </label>
-        </fieldset>
-        <fieldset>
-          <legend>Introduccion de informacion para la subida de las series</legend>
-          <!-- Primer campo de entrada de datos -->
-          <label>
-              Nombre de serie:
-            <input type="text" name="nombrese" value="" placeholder='ej: dragon ball' maxlength="50" required>
-          </label> <br>
-          <label>
-           Codigo de youtube:
-          <input type="text" name="youtube" value="" placeholder='ej:bQp3oIFSKfs' maxlength="50" required>
-          </label><br>
-          <label>
-          Descripcion de la serie:
-          <input type="textarea" name="descripcion" value="" placeholder='ej:bQp3oIFSKfs' required>
-          </label><br>
-        </fieldset>
+            <input type="submit" name="Button" value="Enviar">
+          </fieldset>
         </form>
-    </div>
+      </div>
+    </details>
   </div> <!-- pagina -->
 
   <div class="footer">

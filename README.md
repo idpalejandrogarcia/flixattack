@@ -13,20 +13,14 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
 
 
 | Descripcion | enlaces | Observaciones |
-
 |--------|--------|--------|
-
 |     Github   |   [https://github.com/idpalejandrogarcia](https://github.com/idpalejandrogarcia)     |    Mi perfil de github    |
-
 |     Codepen   |    [https://codepen.io/raxes/#](https://codepen.io/raxes/#)    |     Mi perfil de codepen   |
-
 |    Twitter    |     [https://twitter.com/raxesforged](https://twitter.com/raxesforged)   |    Mi cuenta de twitter    |
-
 |     Proyecto   |    [https://idpalejandrogarcia.github.io/flixattack/](https://idpalejandrogarcia.github.io/flixattack/)    |   Mi proyecto     |
 
 
-
-##Herramientas utilizadas
+## Herramientas utilizadas
 
 
 

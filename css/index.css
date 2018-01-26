@@ -90,11 +90,16 @@ element.style {
 /* Parte central de la pagina*/
 
 .expli {
-  font-family: 'Amatic SC', cursive;
-  /* width: 95vw; */
-  color: white;
+  background-image: url('../img/seriefondo.jpg');
+  height: 8vw;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
 }
-
+ .expli h2{
+   font-family: 'Amatic SC', cursive;
+   color: red;
+   text-shadow: 2px 2px #2D9FA6
+ }
 .mitad {
   width: 70%;
   margin: auto;
@@ -215,7 +220,8 @@ element.style {
   padding-right: 15%;
   font-size: 75%;
 }
-form fieldset{
+
+details{
   color: white;
   text-shadow: 2px 2px #2D9FA6;
   font-family: 'Berkshire Swash', cursive;
