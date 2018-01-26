@@ -38,18 +38,39 @@ function seleccionaSerie(serie) {
     actualizarDOMSerie(serie);
 }
 
-function seleccionaSeriePorId(idSerie) {
+function buscaSeriesPorIds(ids) {
+    var resultado = [];
+    for (var i = 0; i < series.length; i++) {
+        if (ids.indexOf(series[i].id.toString()) >= 0) {
+            resultado.push(series[i]);
+        }
+    }
+    return resultado;
+}
+
+function buscaSeriePorId(idSerie) {
     for (var i = 0; i < series.length; i++) {
         if (series[i].id === idSerie) {
-            seleccionaSerie(series[i]);
+            return series[i];
         }
     }
     return null;
 }
 
+function seleccionaSeriePorId(idSerie) {
+    var serieASeleccionar = buscaSeriePorId(idSerie);
+    if (serieASeleccionar) {
+        seleccionaSerie(serieASeleccionar);
+    }
+}
 
-function cargarDatosCookies() {
-
+function actualizarCookiesDeFavoritos() {
+    var idsSeriesFavoritas = [];
+    for (var i = 0; i < favoritos.length; i++) {
+        idsSeriesFavoritas.push(favoritos[i].id);
+    }
+    // Guardamos la cookie
+    guardarCookie('favoritos', idsSeriesFavoritas.join(','));
 }
 
 function actualizarFavoritos() {
@@ -65,6 +86,8 @@ function actualizarFavoritos() {
         // Mostramos un indicador diciendo que no tienes favoritos.
         listadoFavoritos.append('<li><a>No tienes favoritos</a></li>');
     }
+    // Actualizamos las cookies de favoritos por si el usuario sale de la web
+    actualizarCookiesDeFavoritos();
 }
 
 function marcarFavorito() {
@@ -88,4 +111,38 @@ function desmarcarFavorito() {
     favoritos.splice(posicionFavorito, 1);
     actualizarFavoritos();
     seleccionaSerie(serieSeleccionada);
+}
+
+function guardarCookie(nombre, valor) {
+    var d = new Date();
+    d.setTime(d.getTime() + (1000 * 24 * 60 * 60 * 1000)); // mil días de cookies
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = nombre + "=" + valor + ";" + expires + ";path=/";
+}
+
+function leerCookie(nombre) {
+    var name = nombre + "=";
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        while (cookie.charAt(0) === ' ') {
+            cookie = cookie.substring(1);
+        }
+        if (cookie.indexOf(name) === 0) {
+            return cookie.substring(name.length, cookie.length);
+        }
+    }
+    return "";
+}
+
+function cargarDatosCookies() {
+    // Vemos si tenemos favoritos guardadas en las cookies
+    var cookieFavoritos = leerCookie('favoritos');
+    if (cookieFavoritos) {
+        // Sacamos el listado de los ids de los favoritos
+        var idSeriesFavoritas = cookieFavoritos.split(',');
+        if (idSeriesFavoritas.length > 0) {
+            favoritos = buscaSeriesPorIds(idSeriesFavoritas);
+        }
+    }
 }
