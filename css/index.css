@@ -90,15 +90,15 @@ element.style {
 /* Parte central de la pagina*/
 
 .expli {
-  background-image: url('../img/seriefondo.jpg');
+  background-image: url('../img/image.jpg');
   height: 8vw;
   margin-bottom: 15px;
-  filter: grayscale(100%);
 }
  .expli h2{
-   font-family: 'Amatic SC', cursive;
+   font-size: 22px;
+   text-shadow: 2px 2px black;
+   font-family: 'Anton', sans-serif;
    color: red;
-   text-shadow: 2px 2px #2D9FA6
  }
 .mitad {
   width: 70%;
