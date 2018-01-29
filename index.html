@@ -76,13 +76,13 @@
                    <a href="#Presentacion">Presentacion</a>
                  </li>
                  <li>
-                   <a href="#Buscador">Buscador</a>
+                   <a href="#buscador">Buscador</a>
                  </li>
                  <li>
                    <a href="#Capitulos">Capitulos mas vistos</a>
                  </li>
                  <li>
-                   <a href="#registro">Registro</a>
+                   <a href="#registro" onclick="abrirformulario()">Registro</a>
                  </li>
                  <li>
                    <a href="#contacto">Contacto</a>
@@ -149,7 +149,8 @@
         <!-- AQUI VAN LAS SERIES DEL JSON -->
       </div>
     </div>
-    <details>
+    <a name="registro" id="registro"></a>
+    <details id="detform">
       <summary>Formulario de inscripción</summary>
       <div class="formulario">
         <form name="formulario" action="js/index.js" method="post">
@@ -157,7 +158,6 @@
             <legend>Participe en la pagina y gane beneficios permanentes</legend>
               <label>
                 <!-- Primer campo de entrada de datos -->
-                <a name="registro" id="registro"></a>
                 Nombre de usuario:
                 <input type="text" name="nombreus" value="" placeholder='Tu nombre' maxlength="50" required>
               </label><br>

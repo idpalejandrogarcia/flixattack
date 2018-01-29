@@ -38,7 +38,11 @@ $(document).ready(function () {
 var iframe = document.querySelector('.player');
 var imagen = document.querySelector('.slider-top');
 var descripcion = document.querySelector('#contenedor-descripcion');
+var detform = document.querySelector('#detform');
 
+function abrirformulario (){
+  document.detform.setAttribute("Open");
+}
 
 var options = {
     url: "js/series.json",
