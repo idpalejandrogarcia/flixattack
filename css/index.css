@@ -200,16 +200,16 @@ header .logotipo {
 }
 .contenedor-descripcion{
   margin: auto;
-  width: 60%;
+  width: 80%;
   height: 50%;
 }
 #contenedor-descripcion{
   color: white;
-  text-shadow: 2px 2px #2D9FA6;
+  text-shadow: 1px 2px #2D9FA6;
   font-family: 'Berkshire Swash', cursive;
-  padding-left: 15%;
-  padding-right: 15%;
-  font-size: 75%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 85%;
 }
 
 details{
