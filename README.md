@@ -43,8 +43,10 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
 9. Inkscape: [https://inkscape.org/es/](https://inkscape.org/es/) 
 
 10. Favicon: [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
-11. Fontawesome: [http://fontawesome.io/](http://fontawesome.io/ )  
 
+11. Fontawesome: [http://fontawesome.io/](http://fontawesome.io/ )
+
+12. Buttons: [http://unicorn-ui.com/buttons/](http://unicorn-ui.com/buttons/ )
 
 ## Fase 1: Boceto inicial de la pagina.
 
