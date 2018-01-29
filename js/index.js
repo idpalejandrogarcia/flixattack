@@ -41,7 +41,7 @@ var descripcion = document.querySelector('#contenedor-descripcion');
 var detform = document.querySelector('#detform');
 
 function abrirformulario (){
-  document.detform.setAttribute("Open");
+  detform.open="open";
 }
 
 var options = {
