@@ -78,15 +78,6 @@ header .logotipo {
   font-size:78px;
 }
 
-/*
-parametros que use para arreglarlo en el inspeccinar elemento
-element.style {
-    width: 232px;
-    height: 42px;
-    position: relative;
-    z-index: 999;
-} */
-
 /* Parte central de la pagina*/
 
 .expli {
