@@ -60,7 +60,7 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
 
 ## Fase 2: Cambios en el boceto inical
 
-##### Se ha añadido el menu favoritos y se a reducido considerablemente el tamaño de la pagina
+ Se ha añadido el menu favoritos y se a reducido considerablemente el tamaño de la pagina
 
 ![Imagen](img/boceto1.2.png)
 
@@ -68,17 +68,17 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
 
 ## Fase 3: Cambios finales a la pagina y posibles cambios futuros.
 
-##### Se ha cambio detalles desde el diseño anterior, como la colocacion del buscador, se elimino el boton de filtros y se cambio por el de secciones; y el lugar que ocupaba el buscador fue cambiado por un boton de inicio de sesion para futura implementacion de una base de datos.
+ Se ha cambio detalles desde el diseño anterior, como la colocacion del buscador, se elimino el boton de filtros y se cambio por el de secciones; y el lugar que ocupaba el buscador fue cambiado por un boton de inicio de sesion para futura implementacion de una base de datos.
 
 ![Imagen](img/Flixattack-par_alta.png)
 
-##### Se ha implementado un carrucel desde el que se puede seleccionar un video previamente colocado en youtube e implementado en json con el que a partir de una funcion implanta datos en el carrucel; y desde el que le indicamos que video y fondo debe colocar en cada momento.
+ Se ha implementado un carrucel desde el que se puede seleccionar un video previamente colocado en youtube e implementado en json con el que a partir de una funcion implanta datos en el carrucel; y desde el que le indicamos que video y fondo debe colocar en cada momento.
 
 ![Imagen](img/Flixattack-medio.png)
 
-##### Por ultimo se implemento un formulario en el que se pedira el nombre de usuario y algunos datos de contacto, los cuales se usaran en el momento de implementar  usarios colaborativos. Este ultimo detalle se usara para seguir aumentando la cantidad de contenido de la pagina mediante la colaboracion de usuarios previamente registrados.
+  Por ultimo se implemento un formulario en el que se pedira el nombre de usuario y algunos datos de contacto, los cuales se usaran en el momento de implementar  usarios colaborativos. Este ultimo detalle se usara para seguir aumentando la cantidad de contenido de la pagina mediante la colaboracion de usuarios previamente registrados.
 
 ![Imagen](img/Flixattack-fin.png)
-##### Se ha incluido tambien un pequeño logotipo a la pagina para que sea visible en cualquier dispositivo.
+  Se ha incluido tambien un pequeño logotipo a la pagina para que sea visible en cualquier dispositivo.
 
 ![Imagen](favicons/android-chrome-144x144.png)
