@@ -84,3 +84,17 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
   Se ha incluido tambien un pequeño logotipo a la pagina para que sea visible en cualquier dispositivo.
 
 ![Imagen](favicons/android-chrome-144x144.png)
+
+## Fase 4: Adiciones al deseño final
+
+ Se ha añadido un fondo para la presentacion.
+ 
+ ![Imagen](img/fondopre.png)
+ 
+  Se ha añadido la funcion de favoritos a los videos, con la que se puede asignar serie favorita pulsando en el pulgar hacia arriba y quitarla pulsando en el pulgar hacia abajo que remplazo al anterior; pudiendo buscarla en el desplegable de favoritos, el cual se rellena automaticamente.
+ 
+ ![Imagen](img/mejorabotones.png)
+ 
+  Se modifico en el apartado de secciones/registro que en el momento de pinchar aqui, se despliega automaticamente el formulario, que previamente estaba oculto.
+ 
+ ![Imagen](img/registro.png)
