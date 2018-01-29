@@ -10,7 +10,7 @@ function cargarContenido() {
         $('#contenedor-series').append(serieElement);
     }
     /**
-     Ejemplo de lso divs del slick
+     Ejemplo de los divs del slick
      <div class="item item9" data-image="img/series/zodiaco.jpg" style="background-image:url(img/series/zodiaco.jpg)" onclick="cambiaVideo('LA6f6WW7YjI', 'zodiaco-big.png')">
      <span class="episodio">Episodio Nº 1</span>
      <h3>Caballeros del zodiaco</h3>
