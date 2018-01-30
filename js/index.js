@@ -21,6 +21,7 @@ function cargarContenido() {
 $(document).ready(function () {
     $('#button-favorito').hide();
     $('#button-no-favorito').hide();
+    $.cookieBar();
     cargarDatosCookies();
     cargarContenido();
     actualizarFavoritos();
