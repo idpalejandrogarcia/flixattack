@@ -22,31 +22,30 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
 
 ## Herramientas utilizadas
 
+| Herramienta | Enlace |
+|--------|--------|
+|    1. Atom:    |    [https://atom.io/](https://atom.io/)    |
+|    2. geany :    |    [https://www.geany.org/](https://www.geany.org/)    |
+|    3. Haroopad:    |    [http://pad.haroopress.com/](http://pad.haroopress.com/)    |
+|     4. Greenshot:   |    [http://getgreenshot.org/](http://getgreenshot.org/)    |
+|    5. Inkscape:    |    [https://inkscape.org/es/](https://inkscape.org/es/)     |
 
 
-1. Draw.io: [https://www.draw.io/](https://www.draw.io/)
+## Herramientas web utilizadas (librerias y paginas web empleadas)
 
-2. Trello: [https://trello.com/](https://trello.com/)
-
-3. Atom: [https://atom.io/](https://atom.io/)
-
-4. Caniuse: [https://caniuse.com/](https://caniuse.com/)
-
-5. geany :[https://www.geany.org/](https://www.geany.org/)
-
-6. Haroopad:[http://pad.haroopress.com/](http://pad.haroopress.com/)
-
-7. github:[https://github.com/](https://github.com/)
-
-8. Greenshot:[http://getgreenshot.org/](http://getgreenshot.org/)
-
-9. Inkscape: [https://inkscape.org/es/](https://inkscape.org/es/) 
-
-10. Favicon: [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
-
-11. Fontawesome: [http://fontawesome.io/](http://fontawesome.io/ )
-
-12. Buttons: [http://unicorn-ui.com/buttons/](http://unicorn-ui.com/buttons/ )
+| Herramienta | Enlace |
+|--------|--------|
+|    1. Draw.io:    |    [https://www.draw.io/](https://www.draw.io/)    |
+|    2. Trello:    |    [https://trello.com/](https://trello.com/)    |
+|    3. Caniuse:    |    [https://caniuse.com/](https://caniuse.com/)    |
+|    4. github:    |    [https://github.com/](https://github.com/)    |
+|    5. Favicon:    |    [https://realfavicongenerator.net/](https://realfavicongenerator.net/)    |
+|    6. Fontawesome:    |    [http://fontawesome.io/](http://fontawesome.io/ )    |
+|    7. Buttons:    |     [http://unicorn-ui.com/buttons/](http://unicorn-ui.com/buttons/ )   |
+|    8. Search console:    |   [https://www.google.com/webmasters/tools](https://www.google.com/webmasters/tools)|
+|    9. Google analitics:    |    [https://analytics.google.com](https://analytics.google.com)    |
+|    10. Slich:    |    [http://kenwheeler.github.io/slick/](http://kenwheeler.github.io/slick/)    |
+|    11. Easy autocomplete:    |    [http://easyautocomplete.com/](http://easyautocomplete.com/)    |
 
 ## Fase 1: Boceto inicial de la pagina.
 
@@ -81,11 +80,11 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
   Por ultimo se implemento un formulario en el que se pedira el nombre de usuario y algunos datos de contacto, los cuales se usaran en el momento de implementar  usarios colaborativos. Este ultimo detalle se usara para seguir aumentando la cantidad de contenido de la pagina mediante la colaboracion de usuarios previamente registrados.
 
 ![Imagen](img/Flixattack-fin.png)
-  Se ha incluido tambien un pequeño logotipo a la pagina para que sea visible en cualquier dispositivo.
+  Se ha incluido tambien un pequeño logotipo a la pagina hecha con inkscape y preparado con favicons; para que sea visible en cualquier dispositivo.
 
 ![Imagen](favicons/android-chrome-144x144.png)
 
-## Fase 4: Adiciones al deseño final
+## Fase 4: Adiciones al diseño final
 
  Se ha añadido un fondo para la presentacion.
  
