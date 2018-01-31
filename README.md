@@ -51,11 +51,11 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
 
 
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/boceto.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/boceto.png)
 
 
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/boceto2.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/boceto2.png)
 
 
 
@@ -63,37 +63,37 @@ Pagina web inspirada en pagina de visualizacion de series online, con colaboraci
 
  Se ha añadido el menu favoritos y se a reducido considerablemente el tamaño de la pagina
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/boceto1.2.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/boceto1.2.png)
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/boceto2.2.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/boceto2.2.png)
 
 ## Fase 3: Cambios finales a la pagina y posibles cambios futuros.
 
  Se ha cambio detalles desde el diseño anterior, como la colocacion del buscador, se elimino el boton de filtros y se cambio por el de secciones; y el lugar que ocupaba el buscador fue cambiado por un boton de inicio de sesion para futura implementacion de una base de datos.
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/Flixattack-par_alta.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/Flixattack-par_alta.png)
 
  Se ha implementado un carrucel desde el que se puede seleccionar un video previamente colocado en youtube e implementado en json con el que a partir de una funcion implanta datos en el carrucel; y desde el que le indicamos que video y fondo debe colocar en cada momento.
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/Flixattack-medio.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/Flixattack-medio.png)
 
   Por ultimo se implemento un formulario en el que se pedira el nombre de usuario y algunos datos de contacto, los cuales se usaran en el momento de implementar  usarios colaborativos. Este ultimo detalle se usara para seguir aumentando la cantidad de contenido de la pagina mediante la colaboracion de usuarios previamente registrados.
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/Flixattack-fin.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/Flixattack-fin.png)
   Se ha incluido tambien un pequeño logotipo a la pagina hecha con inkscape y preparado con favicons; para que sea visible en cualquier dispositivo.
 
-![Imagen](https://github.com/idpalejandrogarcia/flixattack/favicons/android-chrome-144x144.png)
+![Imagen](https://idpalejandrogarcia.github.io/flixattack/favicons/android-chrome-144x144.png)
 
 ## Fase 4: Adiciones al diseño final
 
  Se ha añadido un fondo para la presentacion.
  
- ![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/fondopre.png)
+ ![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/fondopre.png)
  
   Se ha añadido la funcion de favoritos a los videos, con la que se puede asignar serie favorita pulsando en el pulgar hacia arriba y quitarla pulsando en el pulgar hacia abajo que remplazo al anterior; pudiendo buscarla en el desplegable de favoritos, el cual se rellena automaticamente.
  
- ![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/mejorabotones.png)
+ ![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/mejorabotones.png)
  
   Se modifico en el apartado de secciones/registro que en el momento de pinchar aqui, se despliega automaticamente el formulario, que previamente estaba oculto.
  
- ![Imagen](https://github.com/idpalejandrogarcia/flixattack/img/registro.png)
+ ![Imagen](https://idpalejandrogarcia.github.io/flixattack/img/registro.png)
